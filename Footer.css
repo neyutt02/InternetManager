@@ -1,0 +1,92 @@
+
+/* footer */
+.footer {
+    position: relative;
+}
+.footer .bg-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    z-index: 0;
+    background-image: url(dark-3d-red-shards-wallpaper-preview.jpg);
+    width: 100%;
+    opacity: 0.7;
+}
+
+.footer .footer-detail {
+    position: absolute;
+    top: -300px;
+    left: 0;
+    width: 100%;
+}
+.footer .footer-detail .footer-detail-contain {
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer .footer-detail .footer-detail-contain .logo {
+    width: 100%;
+    padding-top: 20px;
+}
+.footer .footer-detail .footer-detail-contain .logo .contain-logo img {
+    width: 200px;
+}
+.footer .footer-detail .footer-detail-contain .logo .contain-logo p {
+    color: rgb(189, 189, 189);
+    font-family: var(--font2);
+    font-size: var(--size2);
+    font-weight: bolder;
+    padding: 10px;
+}
+.footer .footer-detail .footer-detail-contain .address {
+    width: 100%;
+    margin: auto;
+}
+.footer .footer-detail .footer-detail-contain .address .contain-addr {
+    display: flex;
+    color: rgb(189, 189, 189);
+    font-family: var(--font2);
+    font-size: var(--size2);
+    font-weight: bolder;
+}
+.footer .footer-detail .footer-detail-contain .address .contain-addr p {
+    padding: 0 0 10px 10px;
+}
+.footer .footer-detail .footer-detail-contain .contact {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.footer .footer-detail .footer-detail-contain .contact .contain-contact p {
+    color: rgb(189, 189, 189);
+    font-family: var(--font1);
+    font-size: var(--size4);
+    font-weight: bolder;
+    margin-bottom: 20px;
+    position: relative;
+}
+.footer .footer-detail .footer-detail-contain .contact .contain-contact p:before {
+    content: '';
+    position: absolute;
+    left: 51%;
+    bottom: -5px;
+    width: 10%;
+    height: 2px;
+    background-color: #e4a101;
+    z-index: 1;
+}
+.footer .footer-detail .footer-detail-contain .contact .icon-social a {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    font-size: var(--size4);
+    padding: 5px;
+}
+.footer .footer-detail .footer-detail-contain .contact .icon-social a:hover {
+    color: #e4a101;
+}
+/* end-footer */
